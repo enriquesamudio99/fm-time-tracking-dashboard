@@ -14,7 +14,7 @@ const loadData = async (e) => {
     const time = e.target.dataset.time;
 
     try {
-        const url = "./data.json";
+        const url = window.location + "/data.json";
 
         const res = await fetch(url);
         const data = await res.json();
