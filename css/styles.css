@@ -211,8 +211,8 @@ img {
 
 .card.play {
     background-image: url(../img/icon-play.svg), linear-gradient(to bottom, var(--softBlue) 0%, var(--softBlue) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
-    background-position: top -0.75rem right 1.344rem, center center;
-    background-size: 90px, 100%;
+    background-position: top -0.25rem right 1.344rem, center center;
+    background-size: 75.5px, 100%;
 }
 
 .card.study {
@@ -230,7 +230,7 @@ img {
 .card.social {
     background-image: url(../img/icon-social.svg), linear-gradient(to bottom, var(--violet) 0%, var(--violet) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
     background-position: top -0.875rem right 0.843rem, center center;
-    background-size: 73.6px, 100%;
+    background-size: 66.5px, 100%;
 }
 
 @media (min-width: 1200px) {
