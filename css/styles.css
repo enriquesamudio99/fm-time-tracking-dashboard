@@ -129,27 +129,38 @@ img {
 
 .card.work {
     background-image: url(../img/icon-work.svg), linear-gradient(to bottom, var(--lightRed) 0%, var(--lightRed) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
+    background-position: top -0.682rem right 1.089rem, center center;
+    background-size: 78px, 100%;
 }
 
 .card.play {
     background-image: url(../img/icon-play.svg), linear-gradient(to bottom, var(--softBlue) 0%, var(--softBlue) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
+    background-position: top -0.75rem right 1.344rem, center center;
+    background-size: 90px, 100%;
 }
 
 .card.study {
     background-image: url(../img/icon-study.svg), linear-gradient(to bottom, var(--lightRedTwo) 0%, var(--lightRedTwo) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
+    background-position: top -0.378rem right 1.067rem, center center;
+    background-size: 78px, 100%;
 }
 
 .card.exercise {
-    background-position: top 0.026rem right 1.089rem, center;
     background-image: url(../img/icon-exercise.svg), linear-gradient(to bottom, var(--limeGreen) 0%, var(--limeGreen) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
+    background-position: top -0.026rem right 1.101rem, center center;
+    background-size: 79.65px, 100%;
 }
-
+ 
 .card.social {
     background-image: url(../img/icon-social.svg), linear-gradient(to bottom, var(--violet) 0%, var(--violet) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
+    background-position: top -0.875rem right 0.843rem, center center;
+    background-size: 73.6px, 100%;
 }
 
 .card.self-care {
     background-image: url(../img/icon-self-care.svg), linear-gradient(to bottom, var(--softOrange) 0%, var(--softOrange) 50%, var(--darkBlue) 50%, var(--darkBlue) 100%);
+    background-position: top -0.924rem right 1.013rem, center center;
+    background-size: 72px, 100%;
 }
 
 .card-data {
