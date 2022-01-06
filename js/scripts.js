@@ -40,19 +40,19 @@ const changeData = (dataArray, time) => {
         if (time === "daily") {
             cardTimeData = data.timeframes.daily.current;
             cardPreviousData = data.timeframes.daily.previous;
-            cardTimeInfoData = "Day";
+            cardTimeInfoData = "Yesterday";
         }
 
         if (time === "weekly") {
             cardTimeData = data.timeframes.weekly.current;
             cardPreviousData = data.timeframes.weekly.previous;
-            cardTimeInfoData = "Week";
+            cardTimeInfoData = "Last Week";
         }
 
         if (time === "monthly") {
             cardTimeData = data.timeframes.monthly.current;
             cardPreviousData = data.timeframes.monthly.previous;
-            cardTimeInfoData = "Month";
+            cardTimeInfoData = "Last Month";
         }
 
         const card = document.querySelector(`[data-card="${data.title}"]`);
@@ -61,7 +61,7 @@ const changeData = (dataArray, time) => {
         const cardPreviousTime = card.querySelector(".card-previous-time");
 
         cardTime.innerText = `${cardTimeData}${cardTimeData == 1 ? "hr" : "hrs"}`;
-        cardPreviousTime.innerText = `Last ${cardTimeInfoData} - ${cardPreviousData}${cardPreviousData == 1 ? "hr" : "hrs"}`;
+        cardPreviousTime.innerText = `${cardTimeInfoData} - ${cardPreviousData}${cardPreviousData == 1 ? "hr" : "hrs"}`;
 
     });
 
